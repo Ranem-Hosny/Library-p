@@ -1,0 +1,67 @@
+body{
+    font-family: 'Cairo', sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(90,168,183,0.694) , rgba(90,168,183,0.694)),url(../images/mountains.jpg);
+    /* background-image:linear-gradient(rgba(90,168,183,0.694) , rgba(90,168,183,0.694)),url(../images/l2.jpg); */
+
+    min-height: 100vh;
+
+}
+.navbar{
+    box-shadow: 0px 2px 5px rgb(30,54,58);
+}
+.logo{
+    height: 50px;
+    margin-left: 10px;
+    
+}
+
+
+
+.be{
+    margin-right: 7%;
+} 
+i{
+    margin-right: 5px;
+}
+.imgs{
+    border-radius: 50%;
+    /* opacity: .5; */
+    
+}
+
+.imgs:hover{
+    /* opacity: 1; */
+}
+.ss{
+    color: white;
+}
+.ss:hover{
+    color:#3292A6;
+    background-color: white;
+    border:white ;
+}
+.layout{
+    opacity: .5;
+    transition: 1s;
+}
+
+.layout:hover{
+    opacity: 1;
+}
+
+footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(../images/pexels-engin-akyurt-2946974.jpg);
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* padding:20px 20px; */
+   background-position: center;
+    
+}
+.media{
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
